@@ -1,10 +1,3 @@
-# Google Phishing Simulation for Password Capture  
-
-### **Disclaimer**  
-This project is for educational purposes **only**. It is intended to raise awareness about phishing attacks and demonstrate how malicious actors might exploit such methods. Use this information responsibly and only in controlled, authorized environments. Unauthorized use of these techniques is illegal and unethical.  
-
----
-
 ## **Overview**  
 
 This repository demonstrates a phishing simulation for educational and research purposes. The project utilizes Kali Linux and the `setoolkit` (Social Engineering Toolkit) to clone a website and harvest credentials.  
@@ -22,16 +15,16 @@ This repository demonstrates a phishing simulation for educational and research 
 
 ### **Step 1: Gain Root Access**  
 Run the following command to switch to root access:  
-```bash
+```
 sudo su
+```
 
 Step 2: Launch the Social Engineering Toolkit
 
 Start the Social Engineering Toolkit by running:
-
-```bash
+```
 setoolkit
-
+```
 ### **Step 3: Select the Type of Attack**
 
     1- Choose Social-Engineering Attacks from the menu.
@@ -41,12 +34,13 @@ setoolkit
 ### **Step 4: Configure the Attack**
 
     1- Use the Site Cloner option.
+    
     2- Obtain the IP address of your machine using the following command:
-    ```bash
+
     ifconfig
 
     3- Input the URL of the target site to clone:
-    ```bash
+    
     http://www.google.com      
     
     
